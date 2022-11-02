@@ -1,6 +1,6 @@
 {
   "name": "tailwind-fagkveld",
-  "description": "This is an extremley simple setup to develop Tailwind projects.",
+  "description": "Small project to showcase Tailwind",
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
