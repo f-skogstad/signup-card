@@ -2,7 +2,7 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    // Extend the Tailwind library
+    // Extend Tailwind library
     extend: {
       colors: {
         twodayBlue: '#009ce9',
@@ -11,7 +11,7 @@ module.exports = {
         twodayGrey: '#3c3c3c',
       },
     },
-    // Overwrite Tailwind
+    // Overwrite Tailwind library
     borderRadius: {
       twodayBorder: '1.875rem', // 30px
     },

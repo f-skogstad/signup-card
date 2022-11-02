@@ -691,39 +691,13 @@ h2{
   line-height: 1rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
-.font-normal{
-  font-weight: 400;
-}
-
-.font-semibold{
-  font-weight: 600;
-}
-
 .font-medium{
   font-weight: 500;
-}
-
-.italic{
-  font-style: italic;
 }
 
 .leading-5{
@@ -737,31 +711,6 @@ h2{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-twodayGreen{
-  --tw-text-opacity: 1;
-  color: rgb(0 226 119 / var(--tw-text-opacity));
-}
-
-.underline{
-  text-decoration-line: underline;
-}
-
-.decoration-twodayGreen{
-  text-decoration-color: #00e277;
-}
-
-.decoration-twodayGreen\/\[\.33\]{
-  text-decoration-color: rgb(0 226 119 / .33);
-}
-
-.decoration-twodayGreen\/\[\.7\]{
-  text-decoration-color: rgb(0 226 119 / .7);
-}
-
-.decoration-twodayBlue{
-  text-decoration-color: #009ce9;
 }
 
 .duration-200{
@@ -803,11 +752,6 @@ h2{
 
 .hover\:italic:hover{
   font-style: italic;
-}
-
-.hover\:text-white:hover{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{
