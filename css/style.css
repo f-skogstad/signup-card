@@ -631,17 +631,8 @@ h2{
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.rounded-3xl{
+.rounded-twodayBorder{
   border-radius: 1.875rem;
-}
-
-.rounded-xl{
-  border-radius: 0.75rem;
-}
-
-.rounded-l-xl{
-  border-top-left-radius: 0.75rem;
-  border-bottom-left-radius: 0.75rem;
 }
 
 .border{
@@ -695,22 +686,44 @@ h2{
   text-align: center;
 }
 
-.font-serif{
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
+}
+
 .font-medium{
   font-weight: 500;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .leading-5{
@@ -724,6 +737,31 @@ h2{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-twodayGreen{
+  --tw-text-opacity: 1;
+  color: rgb(0 226 119 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
+}
+
+.decoration-twodayGreen{
+  text-decoration-color: #00e277;
+}
+
+.decoration-twodayGreen\/\[\.33\]{
+  text-decoration-color: rgb(0 226 119 / .33);
+}
+
+.decoration-twodayGreen\/\[\.7\]{
+  text-decoration-color: rgb(0 226 119 / .7);
+}
+
+.decoration-twodayBlue{
+  text-decoration-color: #009ce9;
 }
 
 .duration-200{
@@ -756,10 +794,6 @@ h2{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:rounded-xl:hover{
-  border-radius: 0.75rem;
 }
 
 .hover\:bg-twodayBlueHover:hover{
@@ -800,16 +834,6 @@ h2{
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:rounded-l-xl{
-    border-top-left-radius: 0.75rem;
-    border-bottom-left-radius: 0.75rem;
-  }
-
-  .md\:rounded-r-none{
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
   }
 
   .md\:p-12{
